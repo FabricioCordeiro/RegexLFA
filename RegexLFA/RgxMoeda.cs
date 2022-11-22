@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Globalization;
 using System.Text.RegularExpressions;
 
 namespace RegexLFA;
@@ -7,7 +8,7 @@ namespace RegexLFA;
 //ou tem o formato correto para representar um valor de moeda.
 //a expressão regular é criada dinamicamente a partir de métodos e propriedades
 //especificas da intância do formato especificado
-internal static class RgxMoeda
+internal class RgxMoeda
 {
     internal static void GetRgxMoeda()
     {

@@ -1,3 +1,4 @@
 ﻿using RegexLFA;
 
-RgxMoeda.GetRgxMoeda();
+//RgxMoeda.GetRgxMoeda();
+RgxNumero.GetRgxNumero();
