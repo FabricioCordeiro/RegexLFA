@@ -44,17 +44,9 @@ internal class RgxMoeda
         foreach (string test in tests)
         {
             if (rgx.IsMatch(test))
-            {
-                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine(" {0} é um valor monetário.", test);
-                Console.ForegroundColor = ConsoleColor.White;
-            }
             else
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(" {0} não é um valor monetário.", test);
-                Console.ForegroundColor = ConsoleColor.White;
-            }
         }
     }
 }
