@@ -4,10 +4,6 @@ using System.Text.RegularExpressions;
 
 namespace RegexLFA;
 
-//Verifica se uma cadeia de caracteres representa um valor de moeda
-//ou tem o formato correto para representar um valor de moeda.
-//a expressão regular é criada dinamicamente a partir de métodos e propriedades
-//especificas da intância do formato especificado
 internal class RgxMoeda
 {
     internal static void GetRgxMoeda()
@@ -33,7 +29,7 @@ internal class RgxMoeda
         pattern += nfi.CurrencyDecimalDigits.ToString() + "}?){1}$";
 
         //pattern contém ^\\s*[\\+-]?\\s?\\$?\\s?(\\d*\\.?\\d{2}?){1}$
-        Regex rgx = new(pattern);
+        Regex rgx = new Regex(pattern);
 
         // Defina algumas strings de teste.
         string[] tests = { "-42", "19.99", "0.001", "100 USD",

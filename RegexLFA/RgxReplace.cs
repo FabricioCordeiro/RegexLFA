@@ -2,7 +2,6 @@
 
 namespace RegexLFA;
 
-//https://www.c-sharpcorner.com/article/c-sharp-regex-examples/
 internal class RgxReplace
 {
     public static void GetRgxReplace()

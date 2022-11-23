@@ -3,7 +3,6 @@
 namespace RegexLFA;
 #pragma warning disable CS8604
 
-//https://www.alura.com.br/artigos/regex-c-sharp-utilizar-expressoes-regulares?gclid=Cj0KCQiA4OybBhCzARIsAIcfn9l3TOkp8alTjHVZ6jiBSGJTeegVBA8Gy7JT8xo4OMSIpkxkBUpcrd4aAq-LEALw_wcB
 internal class RgxCPF
 {
     public static void GetRgxCPF()
