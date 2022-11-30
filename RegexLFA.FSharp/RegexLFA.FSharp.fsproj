@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="RgxMyRegex.fs" />
+    <Compile Include="RgxFind.fs" />
   </ItemGroup>
+
+  <ItemGroup />
 
 </Project>
