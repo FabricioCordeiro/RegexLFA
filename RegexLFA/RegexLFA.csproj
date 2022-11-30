@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RegexLFA.FSharp\RegexLFA.FSharp.fsproj" />
+    <ProjectReference Include="..\RegexLFA.VBNET\RegexLFA.VBNET.vbproj" />
+  </ItemGroup>
+
 </Project>

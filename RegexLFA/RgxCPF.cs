@@ -1,7 +1,8 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace RegexLFA;
 #pragma warning disable CS8604
+#pragma warning disable SYSLIB1045
+namespace RegexLFA;
 
 internal class RgxCPF
 {
@@ -12,7 +13,7 @@ internal class RgxCPF
 
         Regex rgx = new(@"([0-9]{4}[-]?[0-9]{2})|([0-9]{3}[\.]?[0-9]{3}[\.]?[0-9]{3}[-]?[0-9]{2})", 
             RegexOptions.IgnorePatternWhitespace);
-        
+
         if (rgx.IsMatch(texto))
             Console.WriteLine("CPF válido.");
         else
