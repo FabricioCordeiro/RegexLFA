@@ -7,4 +7,5 @@ module RgxFind =
         "Lucy"; "Beky"; "Sanderson"; "Peter"; "Andy"; "Fabricio"]
 
     let GetRgxFind = Regex("Fabricio|Sanderson|Vitor", RegexOptions.Compiled)
-    users |> List.filter GetRgxFind.IsMatch |> List.iter (printfn "%s")
+    users |> List.filter GetRgxFind.IsMatch |> List.iter (printfn "-> %s")
+

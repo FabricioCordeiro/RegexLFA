@@ -9,3 +9,4 @@ Public Class RgxReplace
         Console.WriteLine($" Sem espaço: {semEspaco}")
     End Sub
 End Class
+
